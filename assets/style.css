@@ -1,0 +1,64 @@
+/* Apply the same background image for both navbar and contact section */
+.navbar, .contact-section ,.backgeound, .companies-section{
+    background: url('../images/background2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/* .background{
+    background: url('../images/background2.jpg') no-repeat center center;
+    background-size: cover;
+} */
+
+
+/* Navbar Styling */
+/* .navbar {
+    padding: 15px 0;
+} */
+
+/* Contact Section */
+.contact-section, .home-section, .about-section, .companies-section {
+    height: 400px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 27px;
+}
+
+/* Underline styling */
+.underline {
+    /* width: 80px; Adjust width */
+    height: 4px;
+    background-color: red;
+    margin-top: 10px; /* Adds space between text and underline */
+}
+
+.formLable{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.navbar-heading{
+font-size: 21px;
+}
+
+.navbar-Subheading{
+    font-size: 21px;
+    font-weight: 500;
+
+}
+
+.logoImg {
+  height: 21px;  /* Adjust logo size */
+  width: auto;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: yellow !important; /* Highlight active link */
+}
